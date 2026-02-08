@@ -4,7 +4,7 @@
 Веб-сайт, построенный на React. Позволяет пользователям изучать популярные туристические города, просматривать галереи фотографий и управлять списком желаемых поездок.
 
 ## 🛠 Используемые технологии
-![REACT](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white](https://simpleicons.org/icons/react.svg)
+![REACT](https://simpleicons.org/icons/react.svg)
 ![JavaScript](
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
