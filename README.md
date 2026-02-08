@@ -10,9 +10,9 @@ A React-based website that allows users to explore popular tourist destinations,
 
 ## 📁 Project Structure
 
-* `App.js` — The main component that manages the global state of the city list and deletion logic.
-* `CityCard.js` — A child component responsible for the logic and display of an individual city card.
-* `data.js` — A data module containing city names, descriptions, and image URL arrays.
+* `App.js` - The main component that manages the global state of the city list and deletion logic.
+* `CityCard.js` - A child component responsible for the logic and display of an individual city card.
+* `data.js` - A data module containing city names, descriptions, and image URL arrays.
 
 
 
@@ -23,7 +23,7 @@ A React-based website that allows users to explore popular tourist destinations,
 * **List Management:** Users can remove individual destination cards or clear the entire list with a single click.
 
 ## ⚙️ Usage and Setup
-You are free to use the code of this project for your own purposes — for learning, modification, or as a foundation for your own ideas.
+You are free to use the code of this project for your own purposes - for learning, modification, or as a foundation for your own ideas.
 
 **To run the project:**
 
