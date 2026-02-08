@@ -1,16 +1,24 @@
-# React + Vite
+<h1 align="center">Tour list ✈</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 О проекте
+Веб-сайт, построенный на React. Позволяет пользователям изучать популярные туристические города, просматривать галереи фотографий и управлять списком желаемых поездок.
 
-Currently, two official plugins are available:
+## 🛠 Используемые технологии
+![REACT]([https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white))
+![JavaScript](javascript
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Над чем я работал
+* **Собственные дизайнерские решения:** Я самостоятельно подбирал шрифты и цвета, чтобы интерфейс выглядел гармонично и соответствовал тематике продукта.
+* **Структура через Flexbox:** Основной упор был сделан на грамотное расположение карточек товаров и навигации, чтобы пользователю было легко ориентироваться в меню.
+* **Стилизация элементов:** Отрабатывал создание кнопок и ссылок с использованием `hover`, чтобы добавить интерфейсу динамики и отклика на действия пользователя.
 
-## React Compiler
+## ⚙️ Использование и запуск
+Вы можете свободно использовать код этого проекта в своих целях - для обучения, модификации или как основу для своих идей.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Запуск проекта:**
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Склонируйте репозиторий:
+```
+git clone https://github.com/roody123/dodo-pizza.git
+```
