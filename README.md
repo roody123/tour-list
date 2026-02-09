@@ -1,5 +1,7 @@
 <h1 align="center">Tour List ✈️</h1>
 
+<img width="1919" height="906" alt="Image" src="https://github.com/user-attachments/assets/ba185449-1087-4d03-a7a7-bc11dd2ecf49" />
+
 ## 📌 About the Project
 A React-based website that allows users to explore popular tourist destinations, browse through photo galleries, and manage their travel wishlist.
 
