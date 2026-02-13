@@ -1,37 +1,37 @@
-<h1 align="center">Food Nutrients Counter 🥗</h1>
+<h1 align="center">Tour List ✈️</h1>
 
-<img width="1919" height="902" alt="Image" src="https://github.com/user-attachments/assets/d5556188-009f-4c98-9c37-29d383e2734b" />
+<img width="1919" height="906" alt="Image" src="https://github.com/user-attachments/assets/ba185449-1087-4d03-a7a7-bc11dd2ecf49" />
 
-## 📌 About the project
-A web application that allows users to search for data on the composition of products (fats, sugar). The project aims to reinforce skills in working with APIs, processing asynchronous requests, and creating interactive interfaces.
+## 📌 About the Project
+A React-based website that allows users to explore popular tourist destinations, browse through photo galleries, and manage their travel wishlist.
 
-## 🛠 Technologies
+## 🛠 Tech Stack
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-green?style=for-the-badge&logo=greensock&logoColor=white)
 
-## 📁 Project structure
+## 📁 Project Structure
 
-* `App.jsx` - The main component that manages the search state, API request logic, and animations.
-* `ProductCard.jsx` - Child component for displaying nutrient information for the selected product.
-* `Loader.jsx` - Loading indicator component to improve user experience.
-* `App.css` - Interface styling.
+* `App.js` - The main component that manages the global state of the city list and deletion logic.
+* `CityCard.js` - A child component responsible for the logic and display of an individual city card.
+* `data.js` - A data module containing city names, descriptions, and image URL arrays.
+
+
 
 ## 🌟 Key Features
-* **API Integration:** Fetch requests to the Ninjas Nutrition API to get real-time data.
-* **Smooth animations:** Use of the `@gsap/react` hook to create card appearance effects.
-* **Improved UX:** Use of the `SweetAlert2` library for attractive error notifications if a product is not found.
-* **Responsiveness:** Design that displays correctly on devices with different screen widths.
-* **Optimization:** Use `useCallback` to prevent unnecessary renders.
+* **Dynamic Rendering:** Displays a list of cities by mapping through an array of objects using the `.map()` method.
+* **Independent Sliders:** Each card features its own local state to manage a personalized image carousel.
+* **Smart Descriptions:** A "Read More" functionality that toggles long descriptions using the `substring` method for a cleaner UI.
+* **List Management:** Users can remove individual destination cards or clear the entire list with a single click.
 
-## ⚙️ Installation and launch
+## ⚙️ Usage and Setup
+You are free to use the code of this project for your own purposes - for learning, modification, or as a foundation for your own ideas.
 
-**To launch the project locally:**
+**To run the project:**
 
 1. Clone the repository:
 ```
-git clone https://github.com/roody123/nutrition-analysis.git
+git clone https://github.com/roody123/tour-list.git
 ```
 
 2. Install dependencies:
@@ -40,6 +40,7 @@ npm install
 ```
 
 3. Start the development server:
+
 ```
 npm run dev
 ```
